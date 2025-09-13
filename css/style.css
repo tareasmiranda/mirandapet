@@ -1,0 +1,40 @@
+html, body {
+    width: 100%; height: 100%;
+    margin: 0; padding: 0;
+    background: linear-gradient(to bottom, #90dffe 0%,#228dbb 100%); 
+}
+
+/* Id inicio corresponde a el mensajito en la entrada
+Esto es por mientras, la idea es que tenga un logo
+... tal vez animarlo luego tipo que aparezca */
+#Inicio {
+    font-size: large;
+    color: antiquewhite;
+    background-color: #228dbb88;
+    padding: 0;
+    position: relative;
+    text-align:center;
+    margin:auto;
+    display:block;
+    top:10%;
+    bottom:50%;
+    size: 2rem;
+    width: 20%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+#Inicio a{
+    color:white;
+    text-decoration: none;
+}
+#Inicio a:hover{
+    text-shadow: 3px 3px 3px white;
+}
+
+/* Si el ancho es menor (telefonos), el inicio se enancha
+a 90%, para que no quede angosto */
+@media (max-width:620px){
+    #Inicio{
+        width:90%;
+    }
+}
