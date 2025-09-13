@@ -1,0 +1,16 @@
+@font-face{
+	font-family: 'Cloud';
+	src: url('../fonts/Cloud.ttf')
+		format("opentype");
+}
+@font-face{
+	font-family: 'couriertxt';
+	src: url('../fonts/COURIERTXT.ttf')
+		format("opentype");
+}
+@font-face{
+    font-family: "Times Pixelated 16";
+    font-style:normal;
+    font-weight:normal;
+    src:url('../font/Times16.woff') format("woff");
+}
