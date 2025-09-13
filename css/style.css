@@ -21,7 +21,7 @@ Esto es por mientras, la idea es que tenga un logo
     text-align:center;
     margin:auto;
     display:block;
-    top:10%;
+    top: 10%;
     size: 2rem;
     width: 40%;
     padding: 0.5rem;
@@ -40,10 +40,10 @@ footer{
     width: 100%;
     height: 400px;
     background-image: url(../img/bottomClouds.png);
-    background-size: 100%;
+    background-size: auto;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: center bottom;
     background-attachment: fixed;
 }
 
@@ -51,7 +51,7 @@ footer{
 a 90%, para que no quede angosto */
 @media (max-width:620px){
     #inicio{
-        width:90%;
+        width: 100%;
     }
     footer{
 
