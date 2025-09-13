@@ -1,3 +1,11 @@
+/*
+Aqui unos ejemplos para colocar las fonts que queramos,
+
+La idea es guardarlas en una carpeta aparte
+en estos ejemplos, [ fonts ]
+solo que está una carpeta atás, osea, [ .. ]
+[ ../fonts/ ]
+*/
 @font-face{
 	font-family: 'Cloud';
 	src: url('../fonts/Cloud.ttf')

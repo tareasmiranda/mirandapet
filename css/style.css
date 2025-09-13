@@ -27,6 +27,9 @@ Esto es por mientras, la idea es que tenga un logo
     color:white;
     text-decoration: none;
 }
+#Inicio a:hover{
+    text-shadow: 3px 3px 3px white;
+}
 
 /* Si el ancho es menor (telefonos), el inicio se enancha
 a 90%, para que no quede angosto */
