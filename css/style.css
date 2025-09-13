@@ -1,40 +1,59 @@
 html, body {
     width: 100%; height: 100%;
     margin: 0; padding: 0;
-    background: linear-gradient(to bottom, #90dffe 0%,#228dbb 100%); 
+    background: linear-gradient(to top, #90dffe 0%,#228dbb 100%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Id inicio corresponde a el mensajito en la entrada
 Esto es por mientras, la idea es que tenga un logo
 ... tal vez animarlo luego tipo que aparezca */
-#Inicio {
+#inicio {
     font-size: large;
-    color: antiquewhite;
-    background-color: #228dbb88;
+    color: black;
+    background-image: url(../img/cloud2.png);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     padding: 0;
     position: relative;
     text-align:center;
     margin:auto;
     display:block;
     top:10%;
-    bottom:50%;
     size: 2rem;
-    width: 20%;
+    width: 40%;
     padding: 0.5rem;
     border-radius: 1rem;
 }
-#Inicio a{
-    color:white;
+#inicio a{
+    color:black;
     text-decoration: none;
 }
-#Inicio a:hover{
-    text-shadow: 3px 3px 3px white;
+#inicio a:hover{
+    text-shadow: 3px 3px 3px black;
+}
+footer{
+    bottom:0;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/bottomClouds.png);
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
 }
 
 /* Si el ancho es menor (telefonos), el inicio se enancha
 a 90%, para que no quede angosto */
 @media (max-width:620px){
-    #Inicio{
+    #inicio{
         width:90%;
+    }
+    footer{
+
     }
 }
