@@ -25,6 +25,7 @@ Esto es por mientras, la idea es que tenga un logo
     width: 40%;
     padding: 0.5rem;
     border-radius: 1rem;
+    z-index: 2;
 }
 #inicio a{
     color:black;
@@ -44,6 +45,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center bottom;
     background-attachment: fixed;
+    z-index: 1;
 }
 
 /* Si el ancho es menor (telefonos), el inicio se enancha
