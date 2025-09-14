@@ -16,7 +16,6 @@ Esto es por mientras, la idea es que tenga un logo
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    padding: 0;
     position: relative;
     text-align:center;
     margin:auto;
@@ -52,8 +51,5 @@ a 90%, para que no quede angosto */
 @media (max-width:620px){
     #inicio{
         width: 100%;
-    }
-    footer{
-
     }
 }
