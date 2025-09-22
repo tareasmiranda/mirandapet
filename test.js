@@ -1,7 +1,7 @@
 function myFunction() {
-  let person = prompt("Please enter your name", "Harry Potter");
-  if (person != null) {
+  let nombre = prompt("Ingresa el nombre", "Miranda");
+  if (nombre != null) {
     document.getElementById("demo").innerHTML =
-    "Hello " + person + "! How are you today?";
+    "Hola " + person + " esto es un test...";
   }
 }
