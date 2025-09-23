@@ -1,0 +1,40 @@
+.my-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text color */
+  padding: 15px 32px; /* Padding inside the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline for text */
+  display: inline-block; /* Allow padding and margin */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin around the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  position:absolute;
+  z-index: 10; /* EL FOOTER SE COME LA COLISION DE EL BOTON Y CREO Q ASI SE SOLUCIONA PERO NO ESTARIA MUY SEGURO...*/
+}
+
+.my-button:hover {
+  background-color: #45a049; 
+}
+        
+.my-button1 {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text color */
+  padding: 15px 32px; /* Padding inside the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline for text */
+  display: inline-block; /* Allow padding and margin */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin around the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  position:absolute;
+  z-index: 10; /* EL FOOTER SE COME LA COLISION DE EL BOTON Y CREO Q ASI SE SOLUCIONA PERO NO ESTARIA MUY SEGURO...*/
+}
+
+.my-button1:hover {
+  background-color: #45a049; 
+}
+   
