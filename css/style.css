@@ -4,6 +4,7 @@ html, body {
     background: linear-gradient(to top, #90dffe 0%,#228dbb 100%); 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    z-index: -1;
 }
 
 /* Id inicio corresponde a el mensajito en la entrada
@@ -25,7 +26,7 @@ Esto es por mientras, la idea es que tenga un logo
     width: 40%;
     padding: 0.5rem;
     border-radius: 1rem;
-    z-index: 2;
+    z-index: 1;
 }
 #inicio a{
     color:black;
@@ -45,7 +46,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center bottom;
     background-attachment: fixed;
-    z-index: 1;
+    z-index: 0;
 }
 
 /* Si el ancho es menor (telefonos), el inicio se enancha
