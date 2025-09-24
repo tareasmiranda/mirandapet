@@ -4,6 +4,7 @@ html, body {
     background: linear-gradient(to top, #90dffe 0%,#228dbb 100%); 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    z-index: -1;
 }
 
 /* Id inicio corresponde a el mensajito en la entrada
@@ -12,7 +13,7 @@ Esto es por mientras, la idea es que tenga un logo
 #inicio {
     font-size: large;
     color: black;
-    background-image: url(../recursos/img/cloud2.png);
+    background-image: url(../img/cloud2.png);
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@ Esto es por mientras, la idea es que tenga un logo
     width: 40%;
     padding: 0.5rem;
     border-radius: 1rem;
-    z-index: 2;
+    z-index: 1;
 }
 #inicio a{
     color:black;
@@ -39,13 +40,13 @@ footer{
     position: absolute;
     width: 100%;
     height: 400px;
-    background-image: url(../recursos/img/bottomClouds.png);
+    background-image: url(../img/bottomClouds.png);
     background-size: auto;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-attachment: fixed;
-    z-index: 1;
+    z-index: 0;
 }
 
 /* Si el ancho es menor (telefonos), el inicio se enancha
@@ -54,4 +55,37 @@ a 90%, para que no quede angosto */
     #inicio{
         width: 100%;
     }
+}
+
+@keyframes petDance{/* Declaramos la animacion*/
+/* Se divide en porcentajes
+    transiciona de css a css*/
+
+    0% {rotate: -7deg;}
+    45% {rotate: 0deg;}/**/
+    55% {rotate: 0deg;}/**/
+    100% {rotate: 7deg;}/**/
+}
+
+#petImg{
+    animation-name: petDance;                   /* Asignamos la animacion de arriba para este id*/
+    animation-duration: 1s;                     /* Declara la duracion de cada transicion*/
+    animation-iteration-count: infinite;        /* Reproduce la animacion infinitamente*/
+    animation-direction: alternate;             /* Hace que alterne entre adelantar y retroceder*/
+    transform-origin: center bottom;            /* Define el centro abajo, para que ladee*/
+    animation-timing-function: ease-in-out;
+
+    /* Ease significa que amortigua la animacion
+        Y in-out significa que tambien lo hace al empezar y terminar
+        (Importa porque se loopea) */
+}
+
+
+
+.petDiv {
+    
+    width: 105px;
+    margin: auto;
+   
+    
 }
