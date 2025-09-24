@@ -56,3 +56,19 @@ a 90%, para que no quede angosto */
         width: 100%;
     }
 }
+
+@keyframes petDance{
+    0% {rotate: -5deg;}
+    45% {rotate: 0deg;}
+    55% {rotate: 0deg;}
+    100% {rotate: 5deg;}
+}
+
+#petImg{
+    animation-name: petDance;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    animation-timing-function: ease-in-out;
+}
