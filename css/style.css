@@ -57,18 +57,25 @@ a 90%, para que no quede angosto */
     }
 }
 
-@keyframes petDance{
+@keyframes petDance{/* Declaramos la animacion*/
+/* Se divide en porcentajes
+    transiciona de css a css*/
+
     0% {rotate: -7deg;}
-    45% {rotate: 0deg;}
-    55% {rotate: 0deg;}
-    100% {rotate: 7deg;}
+    45% {rotate: 0deg;}/**/
+    55% {rotate: 0deg;}/**/
+    100% {rotate: 7deg;}/**/
 }
 
 #petImg{
-    animation-name: petDance;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    transform-origin: center bottom;
+    animation-name: petDance;                   /* Asignamos la animacion de arriba para este id*/
+    animation-duration: 1s;                     /* Declara la duracion de cada transicion*/
+    animation-iteration-count: infinite;        /* Reproduce la animacion infinitamente*/
+    animation-direction: alternate;             /* Hace que alterne entre adelantar y retroceder*/
+    transform-origin: center bottom;            /* Define el centro abajo, para que ladee*/
     animation-timing-function: ease-in-out;
+
+    /* Ease significa que amortigua la animacion
+        Y in-out significa que tambien lo hace al empezar y terminar
+        (Importa porque se loopea) */
 }
