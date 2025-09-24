@@ -46,12 +46,15 @@ header{
     margin-right: auto;
     text-align: center;
     background-color: white;
+    border-radius: 0 0 1rem 1rem;
+}
+li{
+    display:inline;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 content{
     background-color: #228dbb;
-}
-li{
-    display:inline
 }
 footer{
     bottom:0;
