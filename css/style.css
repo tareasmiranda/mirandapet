@@ -58,10 +58,10 @@ a 90%, para que no quede angosto */
 }
 
 @keyframes petDance{
-    0% {rotate: -5deg;}
+    0% {rotate: -7deg;}
     45% {rotate: 0deg;}
     55% {rotate: 0deg;}
-    100% {rotate: 5deg;}
+    100% {rotate: 7deg;}
 }
 
 #petImg{
@@ -69,6 +69,6 @@ a 90%, para que no quede angosto */
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    position: relative;
+    transform-origin: center bottom;
     animation-timing-function: ease-in-out;
 }
