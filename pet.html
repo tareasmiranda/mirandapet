@@ -7,30 +7,14 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
-    <script src="mirandatest.js"></script>
-    <style>
-        canvas {
-            border:1px solid #d3d3d3;
-            background-color: #f1f1f1;
-
-        }
-</style>
-
-
-
+    <script src="./js/pet.js"></script>
 </head>
-<body onload="startGame()">
-    <button type="button" class="my-button" onmousedown="moverderecha()">BOTON Q mueve a yotsuba a la derecha :]</button><br><br>
-     <button type="button1" class="my-button1" onclick="explotar()">boton q hace q yotsuba EXPLOTE</button>
-    <center> 
-    <marquee behavior="scroll" direction="left"><p>Tu vieja</p></marquee>
-   
-    <footer>
-    </footer>
-    </center>
-
+<body>
+    
 </body>
-    <audio autoplay loop>
+    <button onclick="document.getElementById('music').play()">▶</button>
+    <button onclick="document.getElementById('music').pause()">■</button>
+    <audio id="music" autoplay loop>
 			<source src="./recursos/audio/depechemode.mp3" type="audio/mpeg">
 			<span>Lastimosamente, no puedes escuchar la cancion.</span>
     </audio>
