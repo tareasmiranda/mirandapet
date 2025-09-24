@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
     <script src="./js/pet.js"></script>
+    <script src="./imagenes.js"></script>
+
 </head>
 <body>
-    <div>
-        <img id="petImg" src="./img/kelthuzad_1.png">
+    <div class="petDiv">
+        <img id="petImg" src="img/heavyidle.jpeg">
+        <p id="estado">Hambre: 50 | Vida: 50 | Felicidad: 50</p>
+        <button onclick="comer();">Alimentar</button>
+        <button onclick="jugar();">Jugar</button>
+        <button onclick="pegar();">Pegar</button>
     </div>
 </body>
     <button onclick="document.getElementById('music').play()">▶</button>
@@ -20,4 +26,5 @@
 			<source src="./audio/depechemode.mp3" type="audio/mpeg">
 			<span>Lastimosamente, no puedes escuchar la cancion.</span>
     </audio>
+
 </html>

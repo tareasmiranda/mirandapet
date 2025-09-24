@@ -79,3 +79,13 @@ a 90%, para que no quede angosto */
         Y in-out significa que tambien lo hace al empezar y terminar
         (Importa porque se loopea) */
 }
+
+
+
+.petDiv {
+    
+    width: 105px;
+    margin: auto;
+   
+    
+}
