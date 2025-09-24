@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Moveable Floating Image</title>
+   <style>
+       .moving-image {
+           position: relative;
+           animation: move 5s infinite alternate;
+       }
+       @keyframes move {
+           from {
+               left: 0;
+           }
+           to {
+               left: 200px;
+           }
+       }
+   </style>
+</head>
+<body>
+   <img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fymqjcopfuh0f1.jpeg" class="moving-image" alt="Moving Image">
+</body>
+</html>
