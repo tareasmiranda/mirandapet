@@ -1,6 +1,9 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
 html, body {
     width: 100%; height: 100%;
-    margin: 0; padding: 0;
     background: linear-gradient(to top, #90dffe 0%,#228dbb 100%); 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,6 +38,21 @@ Esto es por mientras, la idea es que tenga un logo
 #inicio a:hover{
     text-shadow: 3px 3px 3px black;
 }
+header{
+    top:0;
+    width: 80%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+}
+content{
+    background-color: #228dbb;
+}
+li{
+    display:inline
+}
 footer{
     bottom:0;
     position: absolute;
@@ -52,19 +70,16 @@ footer{
 /* Si el ancho es menor (telefonos), el inicio se enancha
 a 90%, para que no quede angosto */
 @media (max-width:620px){
-    #inicio{
+    #inicio, header{
         width: 100%;
     }
 }
 
-@keyframes petDance{/* Declaramos la animacion*/
-/* Se divide en porcentajes
-    transiciona de css a css*/
-
-    0% {rotate: -7deg;}
-    45% {rotate: 0deg;}/**/
-    55% {rotate: 0deg;}/**/
-    100% {rotate: 7deg;}/**/
+@keyframes petDance{            /* Declaramos la animacion      */
+    0% {rotate: -7deg;}         /* - Se divide en porcentajes   */ 
+    45% {rotate: 0deg;}         /* - Transiciona de css a css   */
+    55% {rotate: 0deg;}
+    100% {rotate: 7deg;}
 }
 
 #petImg{
@@ -73,9 +88,8 @@ a 90%, para que no quede angosto */
     animation-iteration-count: infinite;        /* Reproduce la animacion infinitamente*/
     animation-direction: alternate;             /* Hace que alterne entre adelantar y retroceder*/
     transform-origin: center bottom;            /* Define el centro abajo, para que ladee*/
-    animation-timing-function: ease-in-out;
-
-    /* Ease significa que amortigua la animacion
-        Y in-out significa que tambien lo hace al empezar y terminar
-        (Importa porque se loopea) */
+    animation-timing-function: ease-in-out;     /* Ease significa que amortigua la animacion
+                                                  Y in-out significa 
+                                                  que tambien lo hace al empezar y terminar
+                                                    (Importa porque se loopea) */
 }
