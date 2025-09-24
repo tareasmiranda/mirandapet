@@ -1,0 +1,21 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  position:absolute;
+  z-index: 10; /* EL FOOTER SE COME LA COLISION DE EL BOTON Y CREO Q ASI SE SOLUCIONA PERO NO ESTARIA MUY SEGURO...*/
+}
+
+.stats {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.hambre {width: hambrevar; background-color: #04AA6D;} /* Green */
+.sueño {width: sueñovar; background-color: #2196F3;} /* Blue */
+.diversion {width: diversionvar; background-color: #f44336;} /* Red */
