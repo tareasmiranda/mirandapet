@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
     <script src="./imagenes.js"></script>
+    <script src="/particles.js"></script>
+    <script src="/app.js"></script>
     
 </head>
 <body>
     <div class="petDiv">
-        <img id="petImg" src="img/heavyidle.jpeg">
+        <img id="petImg" src="img/mirandasketchidle.png">
         <p id="estado">Hambre: 50 | Vida: 50 | Felicidad: 50</p>
         <button onclick="comer();">Alimentar</button>
         <button onclick="jugar();">Jugar</button>
@@ -21,6 +23,7 @@
 
     <div id="comida">
     </div>
+    <div id='particle-div'></div>
 </body>
 <div class ="botonesmusica">
     <button onclick="document.getElementById('music').play()">▶</button>

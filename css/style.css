@@ -107,3 +107,8 @@ a 90%, para que no quede angosto */
   right: 0;
 
 }
+
+.particle-div {
+width: 2px;
+height: 3px;
+}
