@@ -1,8 +1,15 @@
 let newX = 0, newY = 0, startX = 0, startY = 0;
 
 const comida = document.getElementById('comida')
+const pet = document.getElementById('petExp')
 
 comida.addEventListener('mousedown', mouseDown)
+pet.addEventListener('dragover', dragOver)
+
+function dragOver(e){
+    e.preventDefault();
+    pet.src = ("img/mirandasketchaaaa.png")
+}
 
 function mouseDown(e){
     startX = e.clientX

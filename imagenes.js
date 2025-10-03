@@ -18,11 +18,11 @@ function actualizarEstado() {
 
         var img = document.getElementById("petImg")
         const comer = new Audio("audio/omnomnom.mp3");
-        img.src = "img/mirandasketchomnomnom.gif";
+        img.src = "img/mirandasketcheat.gif";
         comer.play();
 
         setTimeout(function(){
-            img.src="img/mirandasketchidle.jpeg";
+            img.src="img/mirandasketchidle.png";
         }, 3000)
 
         actualizarEstado();
@@ -35,7 +35,7 @@ function actualizarEstado() {
         bailar.play();
 
         setTimeout(function(){
-            img.src="img/mirandasketchidle.jpeg";
+            img.src="img/mirandasketchidle.png";
         }, 3000)
     }
 
