@@ -29,6 +29,8 @@ function actualizarEstado() {
     }
 
     function jugar(){
+        felicidad = Math.max (0, felicidad + 20);
+        hambre += 5
         var img = document.getElementById("petImg")
         const bailar = new Audio("audio/conga.wav");
         img.src = "img/heavybaile.gif";
